@@ -6,10 +6,11 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import tech.tranuytrieuvi.server.employeemanager.exception.ResourceNotFoundException;
+
+import javax.validation.Valid;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
@@ -32,13 +33,13 @@ public class EmployeeController {
 	}
 
 	@PostMapping("/employees")
-	public Employee createEmployee(@Validated @RequestBody Employee employee) {
+	public Employee createEmployee(@Valid @RequestBody Employee employee) {
 		return employeeRepository.save(employee);
 	}
 
 	@PutMapping("/employees/{id}")
 	public ResponseEntity<Employee> updateEmployee(@PathVariable(value = "id") Long employeeId,
-	                                               @Validated @RequestBody Employee employeeDetails) throws ResourceNotFoundException {
+	                                               @Valid @RequestBody Employee employeeDetails) throws ResourceNotFoundException {
 		Employee employee = employeeRepository.findById(employeeId)
 				.orElseThrow(() -> new ResourceNotFoundException("Employee not found for this id :: " + employeeId));
 

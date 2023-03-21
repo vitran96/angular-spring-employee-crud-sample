@@ -40,7 +40,12 @@
 				"vscjava.vscode-maven",
 				"VisualStudioExptTeam.vscodeintellicode",
 				"eamodio.gitlens",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"Angular.ng-template",
+				"cyrilletuzi.angular-schematics",
+				"natewallace.angular2-inline",
+				"esbenp.prettier-vscode",
+				"johnpapa.pwa-tools"
 			]
 		}
 	}

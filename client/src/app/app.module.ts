@@ -8,6 +8,7 @@ import { EmployeeDetailsComponent } from './employee/employee-details/employee-d
 import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
 import { UpdateEmployeeComponent } from './employee/update-employee/update-employee.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

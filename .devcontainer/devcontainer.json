@@ -45,7 +45,9 @@
 				"cyrilletuzi.angular-schematics",
 				"natewallace.angular2-inline",
 				"esbenp.prettier-vscode",
-				"johnpapa.pwa-tools"
+				"johnpapa.pwa-tools",
+				"vscjava.vscode-java-test",
+				"redhat.fabric8-analytics"
 			]
 		}
 	}

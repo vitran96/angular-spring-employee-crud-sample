@@ -1,13 +1,15 @@
 {
-    "recommendations": [
-        "vscjava.vscode-java-debug",
-        "visualstudioexptteam.vscodeintellicode",
-        "redhat.java",
-        "vscjava.vscode-maven",
-        "angular.ng-template",
-        "cyrilletuzi.angular-schematics",
-        "natewallace.angular2-inline",
-        "esbenp.prettier-vscode",
-        "johnpapa.pwa-tools"
-    ]
+  "recommendations": [
+    "vscjava.vscode-java-debug",
+    "visualstudioexptteam.vscodeintellicode",
+    "redhat.java",
+    "vscjava.vscode-maven",
+    "angular.ng-template",
+    "cyrilletuzi.angular-schematics",
+    "natewallace.angular2-inline",
+    "esbenp.prettier-vscode",
+    "johnpapa.pwa-tools",
+    "vscjava.vscode-java-test",
+    "redhat.fabric8-analytics"
+  ]
 }

@@ -35,7 +35,12 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"vscjava.vscode-java-debug"
+				"vscjava.vscode-java-debug",
+				"redhat.java",
+				"vscjava.vscode-maven",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"eamodio.gitlens",
+				"Gruntfuggly.todo-tree"
 			]
 		}
 	}

@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-debug",
+        "visualstudioexptteam.vscodeintellicode",
+        "redhat.java",
+        "vscjava.vscode-maven"
+    ]
+}

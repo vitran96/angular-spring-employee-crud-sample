@@ -10,6 +10,7 @@
     "esbenp.prettier-vscode",
     "johnpapa.pwa-tools",
     "vscjava.vscode-java-test",
-    "redhat.fabric8-analytics"
+    "redhat.fabric8-analytics",
+    "rangav.vscode-thunder-client"
   ]
 }
